@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/estilo.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <a class="navbar-brand" href="#">
+  <img src="imgs/logo.png">
+</a>
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">Tribalismo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Introducción</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Juegos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="test.html">¿Qué tan rápido juzgas?</a></li>
+              <li><a class="dropdown-item" href="#">Juicio en 5 segundos</a></li>
+              <li><a class="dropdown-item" href="#etiqueta">Rompe una etiqueta</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Información</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main id="principal">
+    <div class="inicio">
+      <div class="estereotipos">
+        <span class="item">Fresa</span>
+        <span class="item">Antisocial</span>
+        <span class="item">Débil</span>
+        <span class="item">Raro</span>
+        <span class="item">Popular</span>
+        <span class="item">Callado</span>
+      </div>
+      <h1>¿Cuántas veces has juzgado sin conocer?</h1>
+      <h3>Transformando pensamientos</h3>
+    </div>
+    <div id="intro">
+      <h2>¿Qué veré en la página?</h2>
+      <p>Durante tu navegación en este sitio podrás encontrar distintas actividades relacionadas con el tribalismo en la
+        sociedad, así como contenido que invita a reflexionar sobre la manera en la que solemos juzgar a las personas
+        sin conocerlas realmente. A través de ejemplos y dinámicas interactivas, se busca evidenciar cómo muchas veces
+        nuestras opiniones se basan únicamente en aspectos superficiales como la forma de vestir, la manera de hablar o
+        los gustos personales. </p>
+      <p>Además, la página incluye pequeños juegos y espacios de reflexión en los que podrás cuestionar tus propias
+        reacciones y analizar si estás actuando desde una perspectiva justa o si, sin darte cuenta, estás cayendo en
+        prejuicios. La intención no es señalar o juzgar, sino generar conciencia y fomentar una actitud más abierta y
+        crítica hacia la forma en que percibimos a los demás.</p>
+      <p>Nuestro propósito al desarrollar este sitio es concientizar a la comunidad estudiantil sobre la importancia de
+        tener una visión más amplia y empática. Se busca promover una convivencia más sana, en la que las diferencias no
+        sean motivo de separación, sino una oportunidad para aprender, dialogar y conocer nuevas perspectivas. De esta
+        manera, se invita a los usuarios a salir de su zona de confort, cuestionar sus ideas y atreverse a convivir con
+        personas con las que, en un principio, quizá no se identificarían.</p>
+    </div>
+    <div class="bloque-test">
+      <div class="texto">
+        <h2>¿Qué tan rápido juzgas?</h2>
+        <p>Responde el quiz para saber como funciona tu juicio ante los demás din conocerlos</p>
+        <button class="btn-juegos"><a href="test.html">Quiz</a></button>
+      </div>
+      <img src="imgs/img1.png" alt="ref1" class="img1">
+
+    </div>
+    <div class="bloque-juicio">
+      <h2>Juicio en 5 Segundos</h2>
+      <p>Mira una foto y en menos de 5 segundos responde las preguntas para conocer tus prejuicios</p>
+      <button class="btn-juegos"><a href="juicio.html">Juega</a></button>
+    </div>
+    <div class="imgs">
+      <img src="imgs/img2.jpg" alt="Maria"> <img src="imgs/img3.jpg" alt="Arturo"> <img src="imgs/img4.jpg"
+        alt="Harvey"> <img src="imgs/img5.jpg" alt="">
+    </div>
+    <div id="etiquetas" class="bloque-etiqueta">
+      <h2>Rompe Una Etiqueta</h2>
+      <p>En la universidad y en internet, es fácil que todo se convierta en etiquetas: “los de tal carrera”, “los
+        inteligentes”, “los flojos”, “los raros”, “los populares”. Sin darnos cuenta, empezamos a encasillarnos y a ver
+        a los demás a través de esas ideas.</p>
+      <p>El problema es que esas etiquetas simplifican demasiado lo que somos. Reducen personas complejas a una sola
+        palabra, y muchas veces generan divisiones que no deberían existir.</p>
+      <p>Piensa en una etiqueta que te hayan puesto dentro de tu entorno académico o en línea. Tal vez algo que no te
+        representa del todo, o que solo muestra una parte de ti.</p>
+      <p>Ahora escríbela… y luego rompe con ella.</p>
+      <p>Cuéntanos quién eres realmente, más allá de ese estereotipo. Porque nadie es solo una etiqueta.</p>
+      <div>
+        <button id="toggleBtn">+ Nueva etiqueta</button>
+
+        <form id="form" class="oculto">
+          <input type="text" id="inputEtiqueta" placeholder="Escribe una etiqueta..." required>
+          <textarea id="realidad" placeholder="¿Cómo eres realmente?" required></textarea>
+          <button type="submit">Agregar</button>
+        </form>
+
+        <div id="contenedor"></div>
+      </div>
+    </div>
+    <div class="info">
+      <p><small>Un poco más de información del Tribalismo</small></p>
+      <h2>El tribalismo en la comunidad universitaria</h2>
+      <p>El tribalismo es la tendencia de las personas a formar grupos con quienes comparten ideas, intereses o
+        características similares, generando un sentido de pertenencia. Aunque esto es algo natural, también puede
+        provocar división cuando se rechaza o se juzga a quienes pertenecen a otros grupos.</p>
+      <p>
+        En las universidades, el tribalismo puede verse reflejado en la separación entre carreras, ideologías, estilos
+        de vida o círculos sociales. En internet, este fenómeno se intensifica debido a los algoritmos de plataformas
+        como Instagram o TikTok, que suelen mostrarnos contenido similar a lo que ya pensamos, creando “burbujas” donde
+        es difícil ver otras perspectivas.</p>
+      <p>
+        Este comportamiento sucede porque las personas buscan sentirse aceptadas y seguras dentro de un grupo, pero
+        también porque es más fácil relacionarse con quienes piensan parecido. Sin embargo, esto puede limitar la
+        empatía y el entendimiento hacia los demás.
+        Para mejorar la convivencia, es importante fomentar el respeto, la apertura al diálogo y la curiosidad por
+        conocer otras realidades. En la universidad, esto puede lograrse participando en actividades con personas
+        diferentes, escuchando opiniones diversas y evitando prejuicios. En internet, implica cuestionar lo que vemos,
+        evitar generalizaciones y recordar que detrás de cada perfil hay una persona con una historia única.</p>
+      <p>
+        Comprender el tribalismo no significa eliminar nuestras diferencias, sino aprender a convivir con ellas de
+        manera más empática e inclusiva.</p>
+    </div>
+    <div class="video">
+    <a href="https://youtu.be/qJ_UT7MUh3c" target="_blank" class="video-card">
+    <img src="https://img.youtube.com/vi/qJ_UT7MUh3c/0.jpg" alt="Video">
+    <p>Ver video sobre tribalismo</p>
+    </a>
+    </div>
+    </main>
+    <footer class="footer">
+  <div class="footer-contenido">
+
+    <div class="footer-logo">
+      <img src="imgs/ChatGPT Image Apr 30, 2026, 09_40_47 AM.png" alt="Logo">
+      <p>Tribalismo</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#intro">Introducción</a>
+      <a href="#etiquetas">Rompe una etiqueta</a>
+      <a href="#">Información</a>
+    </div>
+
+    <div class="footer-redes">
+      <p>Síguenos</p>
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+    </div>
+
+  </div>
+
+  <p class="footer-copy">© 2026 Tribalismo | Proyecto educativo</p>
+</footer>
+
+  <script>
+    const form = document.getElementById("form");
+    const contenedor = document.getElementById("contenedor");
+    const toggleBtn = document.getElementById("toggleBtn");
+
+    // Paleta de colores suaves
+    const colores = [
+      "#FFDAD8",
+      "#D3DDEA",
+      "#F2F7F9",
+      "#CDECEF",
+      "#2B91AD",
+      "#FCE4EC"
+    ];
+
+    // 👉 Crear tarjetas
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const etiqueta = document.getElementById("inputEtiqueta").value;
+      const realidad = document.getElementById("realidad").value;
+
+      const color = colores[Math.floor(Math.random() * colores.length)];
+
+      const card = document.createElement("div");
+      card.classList.add("mi-card")
+      card.style.background = color;
+
+      card.innerHTML = `
+    <p><strong>Etiqueta:</strong> "${etiqueta}"</p>
+    <p><strong>Realidad:</strong> ${realidad}</p>
+    <p><em>Anónimo</em></p>
+  `;
+
+      contenedor.appendChild(card);
+      form.reset();
+    });
+
+    // 👉 Mostrar / ocultar formulario
+    toggleBtn.addEventListener("click", () => {
+      form.classList.toggle("oculto");
+
+      toggleBtn.textContent = form.classList.contains("oculto")
+        ? "+ Nueva etiqueta"
+        : "Cerrar";
+    });
+  </script>
+</body>
+
+</html>

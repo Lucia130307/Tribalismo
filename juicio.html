@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego</title>
+  <link rel="stylesheet" href="css/estilo.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <a class="navbar-brand" href="#">
+  <img src="imgs/logo.png">
+</a>
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">Tribalismo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Introducción</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Juegos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="test.html">¿Qué tan rápido juzgas?</a></li>
+              <li><a class="dropdown-item" href="#">Juicio en 5 segundos</a></li>
+              <li><a class="dropdown-item" href="#etiqueta">Rompe una etiqueta</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Información</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Buscar" />
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main class="juego">
+    <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 39"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imgs/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>¿De dónde crees que es originaria?</h5>
+        <h5>¿Crees que en su vida diaria sufre acoso?</h5>
+        <h5>¿Estudia?</h5>
+        <h5>¿Te gustaría convivir con ella?</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/1.1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>¿Cuántos años piensas que tiene?</h5>
+        <h5>¿Crees que en su vida diaria sufre acoso?</h5>
+        <h5>¿Estudia?</h5>
+        <h5>¿Crees que podrías tener una conversación con él?</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/2.2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>¿Crees que en su vida diaria sufrió acoso?</h5>
+        <h5>¿Cuál crees que haya sido su educación?</h5>
+        <h5>¿Crees que convivirias con él sin problema?</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/3.1.jpg" class="d-block w-100" alt="imagen3.1">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/4.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>¿Crees que estudia?</h5>
+        <h5>¿Cómo desarrollarías una conversación con ella?</h5>
+        <h5>¿Crees qué las personas de su escuela la apoyarían con cualquier problema?</h5>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/4.1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="imgs/5.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </main>
+    <footer class="footer">
+  <div class="footer-contenido">
+
+    <div class="footer-logo">
+      <img src="imgs/ChatGPT Image Apr 30, 2026, 09_40_47 AM.png" alt="Logo">
+      <p>Tribalismo</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#intro">Introducción</a>
+      <a href="#etiquetas">Rompe una etiqueta</a>
+      <a href="#">Información</a>
+    </div>
+
+    <div class="footer-redes">
+      <p>Síguenos</p>
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+    </div>
+
+  </div>
+
+  <p class="footer-copy">© 2026 Tribalismo | Proyecto educativo</p>
+</footer>
+
+  </body>
+
+</html>
